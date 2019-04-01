@@ -1,0 +1,20 @@
+#yxnr-breadcrumbs {
+  background-color: #fafafa;
+
+  .breadcrumb {
+    background-color: transparent;
+    margin: 5px 0;
+
+    a {
+      color: #969696;
+
+      &:hover {
+      	color: $color;
+      }
+    }
+
+    .active {
+      color: #949494;
+    }
+  }
+}
